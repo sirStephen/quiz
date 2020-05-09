@@ -190,9 +190,7 @@ const randomQuestion = () => {
         if (myArray.length == 0) {
             questionIndex = randomNumber;
             load();
-            myArr.push(questionIndex)
-
-            
+            myArr.push(questionIndex)            
         }
         
         if (myArr.length == 5) {
