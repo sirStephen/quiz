@@ -1,0 +1,156 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 98%);
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.quiz-container {
+    width: 80%;
+    max-width: 600px;
+    min-height: 500px;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 0 10px 2px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    border-bottom-left-radius: 0 !important;
+}
+
+.question-number h3 {
+    color: hsl(0, 0%, 60%);
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.question {
+    color: #000000;
+    padding: 20px 0;
+}
+
+.options div {
+    background-color: hsl(0, 0%, 95%);
+    color: 000000;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0 !important;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.options div.disabled {
+    pointer-events: none;
+}
+
+.options div:hover {
+    background-color: hsl(145, 100%, 20%);
+    color: #ffffff;
+    transition: 0.2s ease-in;
+}
+
+.correct {
+    background-color: hsl(145, 100%, 20%) !important;
+    color: #ffffff;
+}
+
+.wrong {
+    background-color: hsl(0, 100%, 20%) !important;
+    color: #ffffff;
+}
+
+.button {
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+    outline: none;
+}
+
+.button .btn, .btn {
+    padding: 15px 30px;
+    background-color: #000000;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    border-bottom-left-radius: 0 !important;
+    cursor: pointer;
+}
+
+.answers-progress {
+    margin-top: 15px;
+    height: 5px;
+    background-color: red;
+    width: 100%;
+    overflow: hidden;
+}
+
+.progress {
+    width: 100%;
+    background-color: green;
+    height: 5px;
+    transition: 3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.quiz-over {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 10;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.quiz-over.show {
+    display: flex;
+}
+
+.box h1 {
+    padding: 20px 10px;
+}
+
+.quiz-over .box {
+    background-color: #ffffff;
+    padding: 30px 0;
+    border-radius: 10px;
+    border-bottom-left-radius: 0 !important;
+    text-align: center;
+    flex-basis: 700px;
+}
+
+.score-count-container {
+    display: flex;
+    justify-content: center;
+}
+
+.score-count {
+    padding: 20px;
+    border-radius: 50%;
+    background: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+    width: 60px;
+    height: 60px;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
