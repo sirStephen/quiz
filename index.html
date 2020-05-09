@@ -8,44 +8,20 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <div class="quiz-container">
-        <div class="question-number">
-            <h3>Question 
-                <span class="question-num-value">1</span> of <span class="total-question"></span>
-            </h3>
-        </div>
-        <div class="question">
-
-        </div>
-        <div class="options">
-            <div id="0" class="option1" data-index='0' onClick=check(this)></div>
-            <div id="1" class="option2" data-index='1' onClick=check(this)></div>
-            <div id="2" class="option3" data-index='2' onClick=check(this)></div>
-            <div id="3" class="option4" data-index='3' onClick=check(this)></div>
-        </div>
-        <div class="button">
-            <button type="button" class="btn">Next</button>
-        </div>
-        <div class="answers-progress">
-            <div class="progress" style='width: 0%'></div>
-        </div>
-        <div class="score-count-container">
-            <div class="score-count">
-                <span class='count'>0</span><span>/</span><span class="total-questions">5</span>
+    <main>
+        <div class="header-image dis-flex" id="main">
+            <div class="overlay">
+                <div class="title dis-flex">
+                    <h1>Welcome To Simple Mathematics</h1>
+                </div>
+                <div class="text-align-center intro">
+                    <p>Test your arithmetic skills</p>
+                </div>
+                <div class="start-quiz text-align-center">
+                    <a href="./start.html" class="btn">Start Quiz</a>
+                </div>
             </div>
         </div>
-    </div>
-
-
-    <div class="quiz-over">
-        <div class="box">
-            <h1>Total Score: 
-                <span class="correct-answers"></span><span>/</span><span class="total-questions">5</span>
-            </h1>
-            <button type="button" class="btn try-again">Try Again</button>
-        </div>
-    </div>
-
-    <script src="./assets/js/app.js"></script>
+    </main>
 </body>
 </html>

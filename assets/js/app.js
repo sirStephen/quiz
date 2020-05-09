@@ -23,52 +23,52 @@ let myArr = [];
 
 const questions = [
     {
-        question: 'What is 1 + 1?',
+        question: 'What is 13 x 13?',
         options: [
-            'A. 4',
-            'B. 3',
-            'C. 2',
-            'D. 1'
+            'A. 168',
+            'B. 167',
+            'C. 169',
+            'D. 170'
         ],
         answer: 2
     },
     {
-        question: 'What is 2 + 2?',
+        question: 'What is the square root of 144?',
         options: [
-            'A. 4',
-            'B. 3',
-            'C. 2',
-            'D. 1',
+            'A. 12',
+            'B. 14',
+            'C. 11',
+            'D. 16',
         ],
         answer: 0
     },
     {
-        question: 'What is 3 + 3?',
+        question: '157/2?',
         options: [
-            'A. 4',
-            'B. 6',
-            'C. 2',
-            'D. 1',
+            'A. 77.5',
+            'B. 78.5',
+            'C. 76.5',
+            'D. 79.5',
         ],
         answer: 1
     },
     {
-        question: 'What is 4 + 4?',
+        question: 'What is the cube root of 729?',
         options: [
-            'A. 4',
-            'B. 3',
-            'C. 8',
-            'D. 1',
+            'A. 8',
+            'B. 6',
+            'C. 9',
+            'D. 3',
         ],
         answer: 2
     },
     {
-        question: 'What is 5 + 5?',
+        question: 'Suppose, a man had 7 apples, he ate 3 of them. How many apples are still left?',
         options: [
-            'A. 4',
+            'A. 10',
             'B. 3',
             'C. 2',
-            'D. 10'
+            'D. 4'
         ],
         answer: 3
     },
